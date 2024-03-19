@@ -1,8 +1,10 @@
-import React from 'react'
+import { Stack } from '@mui/material';
 
 const FooterApp = () => {
   return (
-    <div>FooterApp</div>
+    <Stack className='FooterApp' m={"auto"}>
+      QUESTA è UN FOOTER
+    </Stack>
   )
 }
 

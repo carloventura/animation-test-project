@@ -1,8 +1,10 @@
-import React from 'react'
+import { Stack } from '@mui/material';
 
 const HeaderApp = () => {
   return (
-    <div>HeaderApp</div>
+    <Stack className='HeaderApp' m="auto">
+    QUESTA è UN HEADER
+  </Stack>
   )
 }
 
